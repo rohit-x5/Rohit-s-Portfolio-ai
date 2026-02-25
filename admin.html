@@ -4,12 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Admin Login</title>
-  <base href="/" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/style.css" />
-  <link rel="icon" href="/assets/fevicon.png" type="image/png" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" href="./assets/fevicon.png" type="image/png" />
 </head>
 <body>
   <div class="admin-container">
@@ -28,11 +27,10 @@
         <p id="login-message" class="error-message"></p>
         <p id="forgotPasswordLink" class="forgot-password">Forgot Password?</p>
       </form>
-      <a href="/index.html" class="back-home-btn">Return to Home</a>
+      <a href="./index.html" class="back-home-btn">Return to Home</a>
     </div>
   </div>
 
-  <!-- Firebase Auth Logic -->
   <script type="module">
     const firebaseConfig = {
       apiKey: "AIzaSyB8U1P8swKpFe5KUCby-CLSudOsAag_V04",
@@ -73,7 +71,7 @@
           messageBox.classList.add('success');
 
           setTimeout(() => {
-            window.location.href = '/admin-panel.html';
+            window.location.href = './admin-panel.html';
           }, 500);
         } catch (error) {
           console.error("Login Error:", error.code);
