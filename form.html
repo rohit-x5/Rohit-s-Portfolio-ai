@@ -4,12 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rohit Lokhande - Contact</title>
-  <base href="/" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/style.css" />
-  <link rel="icon" href="/assets/fevicon.png" type="image/png" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" href="./assets/fevicon.png" type="image/png" />
 </head>
 <body>
 
@@ -17,8 +16,8 @@
     <div class="logo">Rohit Lokhande</div>
     <div class="menu-icon-dots">&#x22EE;</div>
     <ul class="dropdown-menu">
-      <li><a href="/index.html">Home</a></li>
-      <li><a href="/admin.html">Admin Login</a></li>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./admin.html">Admin Login</a></li>
     </ul>
   </div>
 
@@ -49,26 +48,25 @@
         <button type="submit">Send Message</button>
         <p id="responseMessage"></p>
       </form>
-      <a href="/index.html" class="back-home-btn">Return to Home</a>
+      <a href="./index.html" class="back-home-btn">Return to Home</a>
     </section>
   </div>
 
   <footer>
     <div class="footer-links">
       <a href="https://github.com/rohit-x5" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/github.png" class="icon" alt="GitHub" />GitHub
+        <img src="./assets/github.png" class="icon" alt="GitHub" />GitHub
       </a>
       <a href="https://www.linkedin.com/in/rohit-lokhande-5ba8a7278/" target="_blank" rel="noopener noreferrer">
-        <img src="/assets/linkedin.png" class="icon" alt="LinkedIn" />LinkedIn
+        <img src="./assets/linkedin.png" class="icon" alt="LinkedIn" />LinkedIn
       </a>
-      <a href="/form.html">
-        <img src="/assets/contact.png" class="icon" alt="Contact" />Contact Me
+      <a href="./form.html">
+        <img src="./assets/contact.png" class="icon" alt="Contact" />Contact Me
       </a>
     </div>
     <p>&copy; <span id="current-year"></span> Rohit Lokhande. All rights reserved.</p>
   </footer>
 
-  <!-- Firebase & JS -->
   <script type="module">
     const firebaseConfig = {
       apiKey: "AIzaSyB8U1P8swKpFe5KUCby-CLSudOsAag_V04",
@@ -119,7 +117,7 @@
           contactForm.reset();
 
           setTimeout(() => {
-            window.location.href = '/thankyou.html';
+            window.location.href = './thankyou.html';
           }, 1000);
         } catch (error) {
           console.error("Failed to send:", error);
