@@ -1,60 +1,21 @@
-# 🚀 Personal Portfolio & Lead Management System
+# Personal Portfolio Website
 
-A personal portfolio website featuring a real-time contact form and a secured admin dashboard to manage inquiries.
+A personal portfolio website designed and developed during my front-end internship at Tantrata Solution Pvt. Ltd. This project showcases my front-end skills and serves as a central hub for my projects and content creation.
 
-🔴 **Live Demo:** [https://rohitlokhande.netlify.app](https://rohitlokhande.netlify.app)
+## 🚀 Features
+* **Modern UI/UX:** Clean, responsive design featuring glassmorphism elements.
+* **AI-Assisted Workflow:** Leveraged modern AI tools for rapid prototyping and generating boilerplate code to optimize the development cycle.
+* **Backend Database:** Integrated Firebase Realtime Database to securely handle and store contact form submissions.
+* **Admin Dashboard:** Secure, authenticated admin login to view page analytics and manage form submissions.
+* **Tracking & Analytics:** Custom Firebase script to track unique visitors and page views.
 
----
+## 🛠️ Built With
+* HTML5
+* CSS3 (Custom properties, Flexbox, CSS Grid)
+* JavaScript (ES6 Modules)
+* Firebase Auth & Realtime Database
 
-## 🤖 About The "Vibe Coding" Approach
-**Transparency Note:** This project was built using an **AI-Assisted Workflow (Gemini)**.
+## 🌐 Deployment
+This website is deployed seamlessly via GitHub Pages. 
 
-I am currently learning the foundations of Web Development (HTML/CSS). To bridge the gap between my current skills and the ideas I wanted to build, I used Google Gemini as a "Pair Programmer."
-* **My Role:** System design, logic planning, frontend structure (HTML), and styling direction.
-* **AI's Role:** Writing the complex JavaScript logic for Firebase integration and Admin Panel functionality.
-
-This approach allows me to understand *how* backend systems work conceptually while I continue to master the syntax.
-
----
-
-## ✨ Key Features
-
-### 1. Public Portfolio
-* Responsive personal branding page.
-* **Contact Form:** A fully functional form that captures user details (Name, Email, Message).
-* **Visit Tracking:** Basic visitor tracking script (`track-visit.js`).
-
-### 2. Admin Dashboard (`/admin-panel`)
-* **Secured Access:** A private interface to view incoming messages.
-* **Real-Time Data:** Fetches inquiries directly from Firebase.
-* **Management:** Ability to read and **delete** inquiries instantly.
-
----
-
-## 🛠️ Tech Stack
-
-* **Frontend:** HTML5, CSS3
-* **Logic:** JavaScript (ES6+)
-* **Database:** Google Firebase (Realtime Database)
-* **Deployment:** Netlify
-* **Development Tool:** Google Gemini (AI Assistance)
-
----
-
-## 📂 Project Structure
-
-```text
-/
-├── index.html           # Main Landing Page
-
-
-
-├── style.css            # Global Styles
-├── admin-panel.html     # Dashboard for viewing messages
-├── form.html            # Contact Form UI
-├── assets/              # Images and icons
-├── js/
-│   ├── submit-inquiry.js  # Logic to send form data to Firebase
-│   ├── delete-inquiry.js  # Logic to remove data from Firebase
-│   └── track-visit.js     # Simple analytics
-└── README.md
+*(Note: File paths use relative URLs `./` to ensure compatibility with GitHub Pages' subdirectory hosting structure).*
